@@ -1,0 +1,96 @@
+.modal_background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.modal_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #FFCC00;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal_container p{
+    font-size: 16px;
+    font-weight: 800;
+    color: #06213E;
+    margin: 0;
+}
+
+.modal_container_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #06213E;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal_container_second p{
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+.button_Modal{
+    background-color: transparent;
+    border: none;
+}
+
+.finalizar_modal_container{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(6, 33, 62, 0.69);
+    color: white;
+    font-weight: 600;
+}
+
+.botao_Modal_Copiar{
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #06213E;
+    margin: 0;
+    line-height: 0%;
+}
+
+.botao_Modal_Copiar p{
+    font-size: 16px;
+    font-weight: 800;
+    color: #06213E;
+    margin: 0;
+    padding: 0;
+}
+
+.codigo{
+    font-size: 16px;
+    font-weight: 800;
+    color: #FFCC00;
+    margin-top: 0px;
+}

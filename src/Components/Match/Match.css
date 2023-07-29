@@ -1,0 +1,91 @@
+
+.div_Match{
+    width: 100vw;
+}
+
+.div_date_Match{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6.944vw;
+    color: #06213E;
+}
+
+.div_info_Match{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #06213E;
+}
+
+.img_Match{
+    width: 20.833vw;
+    height: 20.833vw;
+}
+.text_draw_match{
+    font-size: 8.333vw;
+    font-weight: 900;
+    line-height: 0%;
+}
+
+.text_name_Match{
+    width: 25vw;
+    text-align: center;
+}
+
+.button_Match{
+    border: none;
+    border-radius: 2.778vw;
+    width: 22.222vw;
+    height: 6.944vw;
+    font-family: Poppins;
+    color: white;
+    background-color: #C2D0DF;
+}
+
+.button_selected_Match{
+    border: none;
+    border-radius: 2.778vw;
+    width: 22.222vw;
+    height: 6.944vw;
+    font-family: Poppins;
+    color: white;
+    background-color: #06213E;
+}
+
+@media (min-width: 800px) {
+
+    .div_Match{
+        width: 40vw;
+    }
+
+    .img_Match{
+        width: 75px;
+        height: 75px;
+    }
+
+    .text_draw_match{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 0%;
+    }
+
+    .button_Match{
+        border: none;
+        border-radius: 2.778vw;
+        width: 100px;
+        height: 40px;
+        font-family: Poppins;
+        color: white;
+        background-color: #C2D0DF;
+    }
+    .button_selected_Match{
+        border: none;
+        border-radius: 2.778vw;
+        width: 100px;
+        height: 40px;
+        font-family: Poppins;
+        color: white;
+        background-color: #06213E;
+    }
+}
