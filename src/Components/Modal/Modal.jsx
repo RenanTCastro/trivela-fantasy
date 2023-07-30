@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./Modal.css";
 
 export default function Modal(props){
-    const max_teams = props.amount >= 2 ? true : false;
+    const max_teams = props.amount >= 8 ? true : false;
 
     const [code, setCode] = useState("")
     const [sent, setSent] = useState(false);

@@ -13,12 +13,12 @@ export default function Match(props){
         }else if(selectedResult.length > 0){
             setSelectedResult([e.target.value]);
             props.handleClick(props.index,e.target.value,e.target.getAttribute("odd"));
-        }else if(props.amount < 5){
+        }else if(props.amount < 8){
             setSelectedResult([e.target.value]);
             props.handleClick(props.index,e.target.value,e.target.getAttribute("odd"), true);
             props.setAmount(props.amount + 1)
         }else{
-            alert("Você já selecionou 2 resultados");
+            alert("Você já selecionou 8 resultados");
         }
     }
 
