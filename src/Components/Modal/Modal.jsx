@@ -45,8 +45,8 @@ export default function Modal(props){
                         <p>{props.score} pts</p>
                     </>
                     :
-                        <button className="button_Modal">
-                            <p className="send_Modal" onClick={handleClick}>Enviar</p>
+                        <button className="button_Modal" onClick={handleClick}>
+                            <p className="send_Modal">Enviar</p>
                             <p className="send_Modal">{props.score} pts</p>
                         </button>
                     }
