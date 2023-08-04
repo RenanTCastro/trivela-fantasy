@@ -160,7 +160,7 @@ export const data = [
     img_time_A: "https://api.sofascore.app/api/v1/team/2001/image",
     odd_time_A: "155",
     time_B: "ABC",
-    img_time_B: "https://www.sofascore.com/team/football/abc/21838",
+    img_time_B: "https://api.sofascore.app/api/v1/team/21838/image",
     odd_time_B: "550",
     odd_empate: "340",
   },
